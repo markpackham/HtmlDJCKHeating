@@ -38,7 +38,6 @@ if (substr($outputstring, 0, 2) == "ON") {
     echo "Hot Water Boost Function 1 hour";
 } else {
     echo "oops!";
-
 }
 
 ?>

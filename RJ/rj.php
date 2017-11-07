@@ -18,8 +18,9 @@ $date = date('H:i, jS F Y');
 <?php
 echo "<p>As at " . $date . "</p> ";
 exec('/home/pi/bin/awknew', $result);
-foreach ($result as $line)
+foreach ($result as $line) {
     echo "$line\n";
+}
 
 
 // READ BOOST STATE
