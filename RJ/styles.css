@@ -1,12 +1,9 @@
 /***************************************************************
-	This is the style sheet for www.JamesRoderickBurns.com
-
-      Modified from Chapter 11 of Beginning HTML with CSS and XHTML, 
+	Style sheet for www.JamesRoderickBurns.com
+    Modified from Chapter 11 of Beginning HTML with CSS and XHTML,
 	by Craig Cook and David Schultz (Apress, 2007).  Thanks guys!!
-	
 ***************************************************************/
 
-/* Styling the page body **************************************/
 html {
     background: #ff5900;
 }
@@ -26,7 +23,6 @@ body {
     }
 }
 
-/* Styling links **********************************************/
 a:link {
     color: #330033;
 }
@@ -48,7 +44,6 @@ a {
     font-weight: bold;
 }
 
-/* Styling headings *******************************************/
 h2 {
     margin-top: 0;
 }

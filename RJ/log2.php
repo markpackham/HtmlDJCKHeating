@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>l;;lk Heating System Log </title>
+    <meta charset="UTF-8">
+    <title>Test file Heating System Log </title>
 </head>
 <body>
 test
-
 </body>
-
 </html>
