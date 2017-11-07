@@ -39,32 +39,6 @@ a:focus, a:active {
     background-color: #555;
 }
 
-/* Styling the masthead ***************************************/
-#branding {
-    position: relative;
-    height: 150px;
-}
-
-#branding h1 {
-    margin: 0;
-    padding: 10px 0 0;
-    font: 300% "Times New Roman", Times, serif;
-    color: #200020;
-}
-
-#branding a img {
-    border: none;
-    background: transparent;
-}
-
-#branding h1 a {
-    color: #fff;
-}
-
-#branding h1 a:focus, #branding h1 a:active {
-    background: transparent;
-}
-
 /* Styling headings *******************************************/
 h2, h3 {
     color: #250025;
@@ -78,21 +52,6 @@ h3 {
 
 h4 {
     margin-bottom: -1em;
-}
-
-/* Styling the main content ************************************/
-#main-content {
-    width: 65%;
-    float: right;
-    padding-bottom: 20px;
-}
-
-#main-content p.ex {
-    color: #ab3333
-}
-
-#main-content li.ex {
-    color: #ab3333
 }
 
 
