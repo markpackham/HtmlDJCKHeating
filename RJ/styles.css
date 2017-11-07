@@ -7,81 +7,127 @@
 ***************************************************************/
 
 /* Styling the page body **************************************/
-html {  background: #ff5900;}
+html {
+    background: #ff5900;
+}
 
-body {	
-        position: relative;
-	min-width: 670px;
-	width: 80%;
-	margin: 0 auto;
-	padding: 0;
-	font: "Times New Roman", Times, serif;
-	color: #111; }
+body {
+    position: relative;
+    min-width: 670px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    font: "Times New Roman", Times, serif;
+    color: #111;
+}
 
 /* Styling links **********************************************/
-a:link { color: #330033; }
-a:visited { color: #660066; }
-a:hover { color: #990099; }
-a:focus, a:active { color: #ff00ff; background-color: #555; }
+a:link {
+    color: #330033;
+}
+
+a:visited {
+    color: #660066;
+}
+
+a:hover {
+    color: #990099;
+}
+
+a:focus, a:active {
+    color: #ff00ff;
+    background-color: #555;
+}
 
 /* Styling the masthead ***************************************/
 #branding {
-	position: relative; 
-	height: 150px; }
-	
-#branding h1 {
-	margin: 0; 
-	padding: 10px 0 0;
-        font: 300% "Times New Roman", Times, serif;
-	color: #200020; }
+    position: relative;
+    height: 150px;
+}
 
-#branding a img { border: none; background: transparent; }
-#branding h1 a { color: #fff; }
-#branding h1 a:focus, #branding h1 a:active { background: transparent; }
+#branding h1 {
+    margin: 0;
+    padding: 10px 0 0;
+    font: 300% "Times New Roman", Times, serif;
+    color: #200020;
+}
+
+#branding a img {
+    border: none;
+    background: transparent;
+}
+
+#branding h1 a {
+    color: #fff;
+}
+
+#branding h1 a:focus, #branding h1 a:active {
+    background: transparent;
+}
 
 /* Styling headings *******************************************/
 h2, h3 {
-	color: #250025;
-	font: normal 150% Georgia, "Times New Roman", Times, serif;
-	margin-top: 0; }
+    color: #250025;
+    font: normal 150% Georgia, "Times New Roman", Times, serif;
+    margin-top: 0;
+}
 
-h3 { font-size: 135%; }
-h4 { margin-bottom: -1em; }
+h3 {
+    font-size: 135%;
+}
 
+h4 {
+    margin-bottom: -1em;
+}
 
 /* Styling the main content ************************************/
-#main-content { width: 65%; float: right; padding-bottom: 20px; }
+#main-content {
+    width: 65%;
+    float: right;
+    padding-bottom: 20px;
+}
 
 #main-content p img {
-	float: centre;
-	margin-left: 10px;
-	border: 1px solid #000;
-	padding: 2px; }
+    float: centre;
+    margin-left: 10px;
+    border: 1px solid #000;
+    padding: 2px;
+}
 
-#main-content p.ex {color: #ab3333}
-#main-content li.ex {color: #ab3333}
+#main-content p.ex {
+    color: #ab3333
+}
+
+#main-content li.ex {
+    color: #ab3333
+}
 
 /* Styling the navigation menu **********************************/
 #navigation {
-	width: 30%;
-	float: left;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	border-top: 1px solid #b5b5b5; }
+    width: 30%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #b5b5b5;
+}
 
 #navigation li {
-	border-bottom: 1px solid #b5b5b5;
-	font: 130% Georgia, "Times New Roman", Times, serif;
-	padding: 6px 0 6px 35px;
-	background: transparent url(images/ornament.gif) 0 50% no-repeat; }
-	
-#navigation a { text-decoration: none; }
+    border-bottom: 1px solid #b5b5b5;
+    font: 130% Georgia, "Times New Roman", Times, serif;
+    padding: 6px 0 6px 35px;
+    background: transparent url(images/ornament.gif) 0 50% no-repeat;
+}
+
+#navigation a {
+    text-decoration: none;
+}
 
 #navigation li.current {
-	font-style: italic;
-	background-image: url(images/ornament-current.gif);
-	color: #ab0000; }
+    font-style: italic;
+    background-image: url(images/ornament-current.gif);
+    color: #ab0000;
+}
 
 
 
