@@ -8,7 +8,7 @@ $date = date('H:i, jS F Y');
 <head>
     <meta charset="UTF-8">
     <title>Central Heating Setting</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
