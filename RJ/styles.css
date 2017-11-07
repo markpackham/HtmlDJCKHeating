@@ -87,46 +87,12 @@ h4 {
     padding-bottom: 20px;
 }
 
-#main-content p img {
-    float: centre;
-    margin-left: 10px;
-    border: 1px solid #000;
-    padding: 2px;
-}
-
 #main-content p.ex {
     color: #ab3333
 }
 
 #main-content li.ex {
     color: #ab3333
-}
-
-/* Styling the navigation menu **********************************/
-#navigation {
-    width: 30%;
-    float: left;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    border-top: 1px solid #b5b5b5;
-}
-
-#navigation li {
-    border-bottom: 1px solid #b5b5b5;
-    font: 130% Georgia, "Times New Roman", Times, serif;
-    padding: 6px 0 6px 35px;
-    background: transparent url(images/ornament.gif) 0 50% no-repeat;
-}
-
-#navigation a {
-    text-decoration: none;
-}
-
-#navigation li.current {
-    font-style: italic;
-    background-image: url(images/ornament-current.gif);
-    color: #ab0000;
 }
 
 

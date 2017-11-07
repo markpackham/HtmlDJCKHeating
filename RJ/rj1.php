@@ -3,8 +3,10 @@ header('Refresh: 2; URL=rj.php');
 $DOCUMENT_ROOT = "/home/pi/www/html/RJ/arduino";
 $date = date('H:i, jS F Y');
 ?>
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Hot Water Setting</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
